@@ -2,7 +2,7 @@
 
 BUILD_DIR=$1
 
-SOURCEY=sourcey
+SOURCEY=app/sourcey
 # Don't be fooled by the examples. The config_vars key gets ignored on cloudfoundry.
 # It was just added to create a semblance of heroku compatibility
 P5L=

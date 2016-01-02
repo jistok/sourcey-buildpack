@@ -4,7 +4,7 @@
 
 SOURCEY=sourcey
 # where we build stuff
-PREFIX=$HOME/$SOURCEY
+PREFIX=$HOME/app/$SOURCEY
 # make sure we find anything we preinstall
 export PATH=$PREFIX/bin:$PATH
 # tell pkg-config where to look for *.pc files
